@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import 'expo-dev-client';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Hello World iREPS 1</Text>
+      <Text>Hello World iREPS 2</Text>
+      <Text>Hello World iREPS 3</Text>
       <StatusBar style="auto" />
     </View>
   );
